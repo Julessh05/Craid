@@ -68,6 +68,12 @@ private enum Action : String {
     /// Get the Time in a specific Time Zone or City
     case time
     
+    /// init a Flutter Project
+    //case initFlutter
+    
+    /// Init a Swift Project
+    //case initSwift
+    
     /// The Passed Action isn't an Action
     case noAction
     
@@ -90,7 +96,25 @@ private enum Action : String {
 
             case TimeAction.actionShortHand:
                 self = .time
-                break;
+                break
+            
+            /*
+        case InitFlutterAction.actionName:
+            self = .initFlutter
+            break
+            
+        case InitFlutterAction.actionShortHand:
+            self = .initFlutter
+            break
+            
+        case InitSwiftAction.actionName:
+            self = .initSwift
+            break
+            
+        case InitSwiftAction.actionShortHand:
+            self = .initSwift
+            break
+             */
 
             default:
                 self = .noAction
@@ -204,6 +228,15 @@ internal struct Craid {
             case .time:
                 TimeAction.execute(option: option)
                 break
+            /*
+        case .initFlutter:
+            InitFlutterAction.execute(option: option)
+            break
+            
+        case .initSwift:
+            InitSwiftAction.execute(option: option)
+            break
+             */
 
                 // User has entered no Option. So the Error Indicator is shown
             case .noAction:
@@ -228,6 +261,15 @@ internal struct Craid {
             case .time:
                 TimeAction.execute(args: arguments)
                 break
+            /*
+        case .initFlutter:
+            InitFlutterAction.execute(args: arguments)
+            break
+            
+        case .initSwift:
+            InitSwiftAction.execute(args: arguments)
+            break
+             */
 
             case .noAction:
                 CraidIO.showOnError()

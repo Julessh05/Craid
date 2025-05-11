@@ -3,23 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F21454028192C510064D8F9 /* OptionsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F21453F28192C510064D8F9 /* OptionsProtocols.swift */; };
-		3F48802C281AFBE00022B7C9 /* VersionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48802B281AFBE00022B7C9 /* VersionOption.swift */; };
-		3F677E602823D326007C6FC1 /* TimeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F677E5F2823D326007C6FC1 /* TimeAction.swift */; };
-		3F677E632823D537007C6FC1 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F677E622823D537007C6FC1 /* Converter.swift */; };
 		3F6BC11927FEDC3A000A2C5A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BC11827FEDC3A000A2C5A /* main.swift */; };
 		3F77A2952815C98F00798616 /* Craid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77A2942815C98F00798616 /* Craid.swift */; };
-		3F7B72CF28186B6B007E0AA2 /* UserFileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B72CE28186B6B007E0AA2 /* UserFileSystem.swift */; };
 		3F8D5F812815C34E005D34FC /* CraidIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D5F802815C34E005D34FC /* CraidIO.swift */; };
-		3F986729283AAFDC00D3B5D8 /* InformationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F986728283AAFDC00D3B5D8 /* InformationOption.swift */; };
-		3FE026532819CCD70035C426 /* HelpOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE026522819CCD70035C426 /* HelpOption.swift */; };
-		3FF01C92283BE9B4003D2733 /* TimeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF01C91283BE9B4003D2733 /* TimeValues.swift */; };
-		3FF33334281880890053994C /* ClearMoodleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33333281880890053994C /* ClearMoodleAction.swift */; };
-		3FF33336281880BB0053994C /* ActionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF33335281880BB0053994C /* ActionProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,21 +25,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F21453F28192C510064D8F9 /* OptionsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsProtocols.swift; sourceTree = "<group>"; };
-		3F48802B281AFBE00022B7C9 /* VersionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionOption.swift; sourceTree = "<group>"; };
-		3F677E5F2823D326007C6FC1 /* TimeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAction.swift; sourceTree = "<group>"; };
-		3F677E622823D537007C6FC1 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		3F6BC11527FEDC3A000A2C5A /* Craid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Craid; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6BC11827FEDC3A000A2C5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3F77A2942815C98F00798616 /* Craid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Craid.swift; sourceTree = "<group>"; };
-		3F7B72CE28186B6B007E0AA2 /* UserFileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFileSystem.swift; sourceTree = "<group>"; };
 		3F8D5F802815C34E005D34FC /* CraidIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraidIO.swift; sourceTree = "<group>"; };
-		3F986728283AAFDC00D3B5D8 /* InformationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationOption.swift; sourceTree = "<group>"; };
-		3FE026522819CCD70035C426 /* HelpOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOption.swift; sourceTree = "<group>"; };
-		3FF01C91283BE9B4003D2733 /* TimeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeValues.swift; sourceTree = "<group>"; };
-		3FF33333281880890053994C /* ClearMoodleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearMoodleAction.swift; sourceTree = "<group>"; };
-		3FF33335281880BB0053994C /* ActionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8423EEC52DD09A5B00C5D467 /* Protocols */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Protocols; sourceTree = "<group>"; };
+		8423EEC92DD09A5D00C5D467 /* Storage */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Storage; sourceTree = "<group>"; };
+		8423EECC2DD09A5F00C5D467 /* Logic */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Logic; sourceTree = "<group>"; };
+		8423EED12DD09A6100C5D467 /* Options */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Options; sourceTree = "<group>"; };
+		8423EEDA2DD09A6400C5D467 /* Actions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Actions; sourceTree = "<group>"; };
+		8423EEE02DD09A6800C5D467 /* Values */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Values; sourceTree = "<group>"; };
+		8423EEE72DD0BA1200C5D467 /* Errors */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Errors; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F6BC11227FEDC3A000A2C5A /* Frameworks */ = {
@@ -62,33 +52,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F21453E28192C440064D8F9 /* Options */ = {
-			isa = PBXGroup;
-			children = (
-				3F21453F28192C510064D8F9 /* OptionsProtocols.swift */,
-				3FE026522819CCD70035C426 /* HelpOption.swift */,
-				3F48802B281AFBE00022B7C9 /* VersionOption.swift */,
-				3F986728283AAFDC00D3B5D8 /* InformationOption.swift */,
-			);
-			path = Options;
-			sourceTree = "<group>";
-		};
-		3F677E612823D527007C6FC1 /* Logic */ = {
-			isa = PBXGroup;
-			children = (
-				3F677E622823D537007C6FC1 /* Converter.swift */,
-			);
-			path = Logic;
-			sourceTree = "<group>";
-		};
 		3F6BC10C27FEDC3A000A2C5A = {
 			isa = PBXGroup;
 			children = (
-				3FF01C90283BE979003D2733 /* Storage */,
-				3F677E612823D527007C6FC1 /* Logic */,
-				3F21453E28192C440064D8F9 /* Options */,
-				3FF333322818807D0053994C /* Actions */,
-				3F7B72CD28186B2D007E0AA2 /* Values */,
+				8423EEE72DD0BA1200C5D467 /* Errors */,
+				8423EEC52DD09A5B00C5D467 /* Protocols */,
+				8423EEC92DD09A5D00C5D467 /* Storage */,
+				8423EECC2DD09A5F00C5D467 /* Logic */,
+				8423EED12DD09A6100C5D467 /* Options */,
+				8423EEDA2DD09A6400C5D467 /* Actions */,
+				8423EEE02DD09A6800C5D467 /* Values */,
 				3F6BC11827FEDC3A000A2C5A /* main.swift */,
 				3F8D5F802815C34E005D34FC /* CraidIO.swift */,
 				3F77A2942815C98F00798616 /* Craid.swift */,
@@ -102,32 +75,6 @@
 				3F6BC11527FEDC3A000A2C5A /* Craid */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3F7B72CD28186B2D007E0AA2 /* Values */ = {
-			isa = PBXGroup;
-			children = (
-				3FF01C91283BE9B4003D2733 /* TimeValues.swift */,
-			);
-			path = Values;
-			sourceTree = "<group>";
-		};
-		3FF01C90283BE979003D2733 /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-				3F7B72CE28186B6B007E0AA2 /* UserFileSystem.swift */,
-			);
-			path = Storage;
-			sourceTree = "<group>";
-		};
-		3FF333322818807D0053994C /* Actions */ = {
-			isa = PBXGroup;
-			children = (
-				3FF33333281880890053994C /* ClearMoodleAction.swift */,
-				3FF33335281880BB0053994C /* ActionProtocols.swift */,
-				3F677E5F2823D326007C6FC1 /* TimeAction.swift */,
-			);
-			path = Actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +92,15 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				8423EEC52DD09A5B00C5D467 /* Protocols */,
+				8423EEC92DD09A5D00C5D467 /* Storage */,
+				8423EECC2DD09A5F00C5D467 /* Logic */,
+				8423EED12DD09A6100C5D467 /* Options */,
+				8423EEDA2DD09A6400C5D467 /* Actions */,
+				8423EEE02DD09A6800C5D467 /* Values */,
+				8423EEE72DD0BA1200C5D467 /* Errors */,
+			);
 			name = Craid;
 			productName = Craid;
 			productReference = 3F6BC11527FEDC3A000A2C5A /* Craid */;
@@ -158,7 +114,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					3F6BC11427FEDC3A000A2C5A = {
 						CreatedOnToolsVersion = 13.3;
@@ -189,18 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F6BC11927FEDC3A000A2C5A /* main.swift in Sources */,
-				3F677E632823D537007C6FC1 /* Converter.swift in Sources */,
-				3FF33336281880BB0053994C /* ActionProtocols.swift in Sources */,
-				3FF33334281880890053994C /* ClearMoodleAction.swift in Sources */,
 				3F8D5F812815C34E005D34FC /* CraidIO.swift in Sources */,
-				3F21454028192C510064D8F9 /* OptionsProtocols.swift in Sources */,
 				3F77A2952815C98F00798616 /* Craid.swift in Sources */,
-				3F48802C281AFBE00022B7C9 /* VersionOption.swift in Sources */,
-				3FE026532819CCD70035C426 /* HelpOption.swift in Sources */,
-				3F986729283AAFDC00D3B5D8 /* InformationOption.swift in Sources */,
-				3F677E602823D326007C6FC1 /* TimeAction.swift in Sources */,
-				3FF01C92283BE9B4003D2733 /* TimeValues.swift in Sources */,
-				3F7B72CF28186B6B007E0AA2 /* UserFileSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -242,9 +189,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = $APP_VERSION;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q87UDX5898;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -262,7 +212,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,6 +230,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -311,9 +262,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = $APP_VERSION;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q87UDX5898;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -325,7 +279,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -345,11 +299,11 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jules.craid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,11 +317,11 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q87UDX5898;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jules.craid;
 				PRODUCT_NAME = "$(TARGET_NAME)";

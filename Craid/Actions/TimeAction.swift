@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// An Action to get the Time in any City of this Planet
 internal struct TimeAction : FullActionProtocol {
     
     /// The Name of the Action Time.
