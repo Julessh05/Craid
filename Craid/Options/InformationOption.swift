@@ -22,8 +22,8 @@ internal struct InformationOption : SmallOptionsProtocol {
     
     static func execute() {
         VersionOption.execute()
-        CraidIO.communicate(message: "© Julian Schumacher 2022")
-        CraidIO.communicate(message: "Project Repository: https://github.com/Jules-sh/Craid")
+        CraidIO.communicate(message: "© 2022 - 2025 Julian Schumacher")
+        CraidIO.communicate(message: "Project Repository: https://github.com/Julessh05/Craid")
     }
     
     static func execute(option: Option) {
